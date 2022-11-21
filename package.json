@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --open --port 8888"
   },
   "dependencies": {
     "vue": "^3.2.41"
